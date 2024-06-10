@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Nav = () => {
   return (
-    <div className="w-full h-16 absolute z-10 mx-8 mt-4 flex items-center">
+    <div className="h-16 absolute z-10 mx-8 mt-4 flex items-center">
       <Image
         src="/logo.png"
         width={60}
