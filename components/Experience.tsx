@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export function Experience() {
   return (
-    <div className="relative flex flex-col h-[100vh] items-center justify-center bg-zinc-50 dark:bg-zinc-900  text-slate-950 transition-bg">
+    <div className="relative flex flex-col min-h-[100vh] items-center justify-center bg-zinc-50 dark:bg-zinc-900  text-slate-950 transition-bg">
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
