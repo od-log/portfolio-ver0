@@ -5,7 +5,7 @@ import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 export function Contact() {
   return (
-    <div className="h-[100vh] w-full rounded-md flex md:items-center md:justify-center bg-zinc-50 dark:bg-zinc-900 text-slate-950 antialiased bg-grid-white/[0.5] relative overflow-hidden">
+    <div className="h-[100vh] w-full rounded-md flex md:items-center justify-center bg-zinc-50 dark:bg-zinc-900 text-slate-950 antialiased bg-grid-white/[0.5] relative overflow-hidden">
       <Spotlight className="top-40 left-0 md:left-60 md:-top-20" fill="white" />
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
@@ -17,12 +17,12 @@ export function Contact() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
+        <div className="p-4 max-w-7xl mx-auto relative z-10  w-full pt-20 md:pt-0">
           <h1 className="text-4xl md:text-7xl dark:text-white font-bold text-center">
             Contact Me
           </h1>
 
-          <p className="mt-6 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto flex justify-center">
+          <p className="mt-8 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto flex justify-center">
             <HoverBorderGradient
               containerClassName="rounded-full"
               as="button"
